@@ -5,13 +5,14 @@ h1{
 .tuade{
   color:crimson;
   font-family:Arial;
-  top-margin: 20pt;
+  top-margin: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
 .noidung{
   color:black;
-  top-margin:6pt;
+  top-margin:6px;
+  font-size: 14px;
   font-style:normal;
 }
   
