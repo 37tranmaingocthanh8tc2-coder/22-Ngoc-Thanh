@@ -5,11 +5,11 @@
 }
 .header{
    flex:15%;
-   background-color: crimson;
+   background-color:crimson;
 }
 .menu{
   flex:5%;
-  background-color: lightcyan;
+  background-color:lightcyan;
 }
 .content{
   flex:70%;
@@ -17,7 +17,7 @@
 }
 .footer{
   flex:10%;
-  background-color: crimson;
+  background-color:crimson;
 }
 h1{
   color:red;
