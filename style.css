@@ -5,12 +5,21 @@
 }
 .header{
    flex:15%;
-   background-color:darkgray;
+   background-color:lightcyan;
 }
 .menu{
   flex:5%;
-  background-color:lightcyan;
+  background-color:darkgray;
+  display:flex;
+  align-items:center;
 }
+.menu a{
+   padding: 15px 20px;
+   color:blue;
+}
+.menu hover{
+   background-color:lightgray;
+   color:black;
 .content{
   flex:70%;
   background-color:white;
@@ -23,7 +32,7 @@
 }
 .footer{
   flex:10%;
-  background-color:darkgray;
+  background-color:lightcyan;
 }
 h1{
   color:red;
