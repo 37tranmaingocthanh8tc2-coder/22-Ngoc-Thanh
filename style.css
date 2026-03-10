@@ -7,7 +7,7 @@
    flex:10%;
    background-color:lightcyan;
    background: url("images/banner.png") center ;
-   aspect-ratio: 6;
+   aspect-ratio: 6/1;
 }
 .menu{
   flex:5%;
