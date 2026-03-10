@@ -4,7 +4,7 @@
    height:100vh;
 }
 .header{
-   flex:15%;
+   flex:10%;
    background-color:lightcyan;
    background: url("images/banner.png") center ;
    aspect-ratio: 6;
@@ -24,7 +24,7 @@
    color:black;
 }
 .content{
-  flex:70%;
+  flex:75%;
   background-color:white;
 }
 .content iframe{
