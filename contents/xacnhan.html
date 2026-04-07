@@ -3,8 +3,12 @@
   <meta charset="UTF-8">
 </head>
 <body>
-  <h2>Cảm ơn bạn đã đăng kí</h2>
-  <p>Chúng tôi đã ghi nhận phản hồi.</p>
+  <p id="kq"> </p>
+<script>
+  let params = new URLSearchParams(window.location.search);
+  let ten = params.get("txtTen");
+  document.getElementById("kq").innerHTML ="Cảm ơn bạn " + ten + " đã góp ý kiến" + "<br>Chúng tôi xin ghi nhận phản hồi.<br>"
+</script>
   <form action="Hoithao.html">
     <input type="submit" name="back" value="Quay lại">
   </form>
